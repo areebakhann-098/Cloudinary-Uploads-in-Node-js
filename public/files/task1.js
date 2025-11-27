@@ -13,7 +13,7 @@ fs.readFile(inputFilePath ,(err, data)=>{
         else{
     console.log( "file succesfully read", data.toString())}
 });
-fs.writeFile(outputFilePath, "Hi how are you usmaaan ", (err)=>{
+fs.writeFile(outputFilePath, "Hi ", (err)=>{
     if(err) console.log(err)
         else{
     console.log("data written succesfuly to output.txt")}
