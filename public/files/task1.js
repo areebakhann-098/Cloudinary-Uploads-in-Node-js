@@ -8,12 +8,13 @@ const __dirname = path.dirname(__filename);
 const inputFilePath= path.join(__dirname, "input.txt")
 const outputFilePath= path.join(__dirname,  "output.txt")
 
-fs.readFile(inputFilePath ,(err, data)=>{
+
+fs.readFile(inputFilePath, (err, data)=>{
     if(err) console.log(err)
         else{
     console.log( "file succesfully read", data.toString())}
 });
-fs.writeFile(outputFilePath, "Hi ", (err)=>{
+fs.writeFile(outputFilePath, "Hi", (err)=>{
     if(err) console.log(err)
         else{
     console.log("data written succesfuly to output.txt")}
