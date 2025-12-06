@@ -28,7 +28,6 @@ export const uploadFile = async (req, res) => {
 
 export const deleteFile= async(req, res)=>{
   const {public_id}= req.body;
-  console.log('dasss wa', public_id);
 
   
 

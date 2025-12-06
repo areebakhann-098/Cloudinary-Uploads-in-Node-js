@@ -1,5 +1,4 @@
-import dotenv from "dotenv"
-dotenv.config()
+
 import { NotFoundError } from "../utils/notFound.util.js";
 import jwt from "jsonwebtoken";
 export const authMiddleware = async(req , res, next)=>{
